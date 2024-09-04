@@ -5,7 +5,7 @@ export default function FizzBuzz() {
   return (
     <div className="card">
       <button type="button" onClick={() => setValue((prev) => prev + 1)}>
-        Incremenent
+        Increment
       </button>
       <dl>
         <div>

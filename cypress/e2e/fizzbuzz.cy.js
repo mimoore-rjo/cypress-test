@@ -1,5 +1,8 @@
 describe("fizzbuzz spec", () => {
-  it("passes", () => {
+  function visit() {
     cy.visit("http://localhost:5173");
+  }
+  it("passes", () => {
+    visit();
   });
 });
